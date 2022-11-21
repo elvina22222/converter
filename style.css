@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+header {
+    position: absolute;
+width: 1152px;
+height: 50px;
+left: 0px;
+top: 0px;
+background: #F5F5F6;
+}
+.bankimg {
+    position: absolute;
+width: 89px;
+height: 23px;
+left: 100px;
+top: 15px;
+}
+.bank {
+    position: absolute;
+width: 44px;
+height: 19px;
+left: 253px;
+top: 17px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 13px;
+display: flex;
+align-items: center;
+letter-spacing: 0.06em;
+
+color: #959BA4;;
+}
+.business {
+    position: absolute;
+width: 50px;
+height: 19px;
+left: 310px;
+top: 17px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 13px;
+display: flex;
+align-items: center;
+letter-spacing: 0.06em;
+
+color: #959BA4;
+}
+.investment {
+    position: absolute;
+width: 94px;
+height: 19px;
+left: 381px;
+top: 17px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 13px;
+display: flex;
+color: #959BA4;
+}
+.insurance {
+    position: absolute;
+width: 94px;
+height: 19px;
+left: 486px;
+top: 17px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 13px;
+display: flex;
+color: #959BA4;
+}
+.mobile {
+    position: absolute;
+width: 68px;
+height: 19px;
+left: 596px;
+top: 17px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 13px;
+display: flex;
+color: #959BA4;
+}
+.travel {
+    position: absolute;
+width: 101px;
+height: 19px;
+left: 671px;
+top: 17px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 13px;
+display: flex;
+align-items: center;
+letter-spacing: 0.06em;
+
+color: #959BA4;
+}
+.entertaiment{
+    position: absolute;
+width: 101px;
+height: 19px;
+left: 782px;
+top: 17px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 13px;
+display: flex;
+align-items: center;
+letter-spacing: 0.06em;
+
+color: #959BA4;
+}
+.login{
+    position: absolute;
+width: 58px;
+height: 33px;
+left: 1005px;
+top: 9px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 13px;
+letter-spacing: 0.06em;
+
+color: #000000;
+background-color: white;
+border-radius: 4px;
+}
+button {
+    border: none;
+    background-color: #F5F5F6;
+}
+.main{
+    position: absolute;
+width: 587px;
+height: 32px;
+left: 253px;
+top: 106px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+color: #000000;
+
+}
+.have {
+    box-sizing: border-box;
+position: absolute;
+width: 259px;
+height: 30px;
+left: 253px;
+top: 235px;
+border: 1px solid #E5E5E5;
+border-radius: 3px;
+border-collapse: collapse;
+}
+th {
+    border: 1px solid rgb(194, 186, 186);
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+align-items: center;
+text-align: center;
+
+color: #C6C6C6;
+ }
+ #first {
+    box-sizing: border-box;
+position: absolute;
+width: 259px;
+height: 102px;
+left: 253px;
+top: 290px;
+border: 1px solid #E5E5E5;
+border-radius: 3px;
+ }
+.i-have {
+    position: absolute;
+width: 120px;
+height: 28px;
+left: 253px;
+top: 192px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+display: flex;
+align-items: center;
+
+color: #9F9F9F;
+}
+.want{
+    box-sizing: border-box;
+position: absolute;
+width: 259px;
+height: 30px;
+left: 635px;
+top: 233px;
+border: 1px solid #E5E5E5;
+border-radius: 3px;
+border-collapse: collapse;
+}
+#second {
+    box-sizing: border-box;
+
+position: absolute;
+width: 259px;
+height: 102px;
+left: 635px;
+top: 290px;
+border: 1px solid #E5E5E5;
+border-radius: 3px;
+}
+.i-want {
+    position: absolute;
+width: 120px;
+height: 28px;
+left: 635px;
+top: 192px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+display: flex;
+align-items: center;
+
+color: #9F9F9F;
+}
