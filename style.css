@@ -7,6 +7,9 @@ left: 0px;
 top: 0px;
 background: #F5F5F6;
 }
+button:hover{
+    color:#000000
+}
 .bankimg {
     position: absolute;
 width: 89px;
