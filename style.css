@@ -7,9 +7,16 @@ left: 0px;
 top: 0px;
 background: #F5F5F6;
 }
-button:hover{
-    color:#000000
+#A{
+    color:#000000;
+    width: 600px;
+    height:
 }
+button:hover{
+    color: white;
+    background-color: #833AE0;
+}
+
 .bank , .business, .entertaiment , .insurance , .investment , .login , .main , .mobile , .travel {
     border: none;
     background-color: #F5F5F6;
@@ -190,10 +197,12 @@ font-size: 12px;
 align-items: center;
 text-align: center;
 
-color: white;
+color: #C6C6C6;
+;
  }
  button {
     border: none;
+    color:  #C6C6C6    ;
     background-color: white;
     width: 63px;
     height: 28px;
@@ -201,6 +210,38 @@ color: white;
  th:hover{
     background-color:#833AE0;
     color: white
+ }
+ .bank:hover {
+    color: black;
+    background-color: #F5F5F6;
+ }
+ .business:hover {
+    color: black;
+    background-color: #F5F5F6;
+ }
+ .investment:hover {
+    color: black;
+    background-color: #F5F5F6;
+ }
+ .insurance:hover {
+    color: black;
+    background-color: #F5F5F6;
+ }
+ .mobile:hover {
+    color: black;
+    background-color: #F5F5F6;
+ }
+ .travel:hover {
+    color: black;
+    background-color: #F5F5F6;
+ }
+ .entertaiment:hover {
+    color: black;
+    background-color: #F5F5F6;
+ }
+ .login:hover {
+    color: black;
+    background-color: white;
  }
  #first {
     box-sizing: border-box;
