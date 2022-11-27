@@ -6,8 +6,9 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <header class="button">
+    <header>
       <img src="image/bank.svg" alt="not found" class="bankimg">
+      <div class="menu">
       <button class="bank">БАНК </button>
       <button class="business">БИЗНЕС</button>
       <button class="investment">ИНВЕСТИЦИИ</button>
@@ -15,26 +16,31 @@
       <button class="mobile">МОБАЙЛ</button>
       <button class="travel">ПУТЕШЕСТВИЯ</button>
       <button class="entertaiment">РАЗВЛЕЧЕНИЯ</button>
-      <button class="login">  ВОЙТИ</button>
+      <button class="login"> ВОЙТИ</button>
+      </div>
     </header>
     <p class='main'>Конвертер валют онлайн</p>
     <div>
       <table class="have">
       <p class="i-have">У меня есть </p>
-      <th>RUB</th>
-      <th>USD</th>
-      <th>EUR</th>
-      <th>GBP</th>
+      <div class="want">
+      <th><button class="rub">RUB</button></th>
+      <th><button class="usd">USD</button></th>
+      <th><button class="eur">EUR</button></th>
+      <th><button class="gbp ">GBP</button></th>
+      </div>
       </table>
       <div id="first"><input type="text" class="number"></div>
     </div>
     <div>
       <table class="want">
         <p class="i-want">Хочу приобрести </p>
-        <th>RUB</th>
-        <th>USD</th>
-        <th>EUR</th>
-        <th>GBP</th>
+        <div class="cur">
+        <th><button class="rub">RUB</button></th>
+        <th><button class="usd">USD</button></th>
+        <th><button class="eur">EUR</button></th>
+        <th><button class="gbp">GBP</button></th>
+        </div>
         </table>
         <div id="second"><input type="text" class="number"></div>
     </div>
