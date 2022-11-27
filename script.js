@@ -12,17 +12,38 @@ input.addEventListener('keydown',function(e){
             e.target.value += " "
 })
 
-const currency = document.querySelector('.cur');
+
 const one = document.querySelector('.first');
 const two = document.querySelector('.second');
 const rub = document.querySelector('.rub');
 const usd = document.querySelector('.usd');
-let a=0;
-currency.addEventListener("click", function() {
-    if (currency == rub ){
-            c=one.value*1.68;
-                 console.log(conamount.value +' EUR = ' + c +' AZN');
-          }
+const eur = document.querySelector('.eur');
+const gbp = document.querySelector('.gbp');
+
+document.querySelector(".rub").addEventListener("click", moneyConvert);
+document.querySelector(".usd").addEventListener("click", moneyConvert);
+
+one.addEventListener("input", moneyConvert);
+two.addEventListener("input", moneyConvert);
+
+function moneyConvert(){
+    fetch('https://api.exchangerate.host/latest?base=USD&symbols=RUB')
+    .then(response => response.json())
+    .then( data => {
+        if ()
     }
+)}
+
+// const amount = data.rates.USD;
+// const usdField = usd.value;
+// const rubField = (usdField * amount).toFixed(4);
+// two.value = rubField;
+
+// currency.addEventListener("click", function() {
+//     if (currency == rub ){
+//             two=one.value*1.68;
+//                  console.log(conamount.value +' EUR = ' + c +' AZN');
+//           }
+//     }
     
-})
+// )

@@ -7,11 +7,6 @@ left: 0px;
 top: 0px;
 background: #F5F5F6;
 }
-#A{
-    color:#000000;
-    width: 600px;
-    height:
-}
 button:hover{
     color: white;
     background-color: #833AE0;
@@ -132,7 +127,6 @@ width: 101px;
 height: 19px;
 left: 782px;
 top: 17px;
-
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -141,7 +135,6 @@ line-height: 13px;
 display: flex;
 align-items: center;
 letter-spacing: 0.06em;
-
 color: #959BA4;
 }
 .login{
@@ -150,14 +143,12 @@ width: 58px;
 height: 33px;
 left: 1005px;
 top: 9px;
-
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 11px;
 line-height: 13px;
 letter-spacing: 0.06em;
-
 color: #000000;
 background-color: white;
 border-radius: 4px;
@@ -324,7 +315,7 @@ font-size: 36px;
 line-height: 42px;
 color: #000000;
 }
-button:focus {
+.rub:focus , .usd:focus , .eur:focus , .gbp:focus {
     background-color: #833AE0;
     color:white
 }
